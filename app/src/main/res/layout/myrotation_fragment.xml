@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/b0"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="ROTATE ANGLE 0"
+        android:layout_margin="20dp"
+        android:layout_marginTop="200dp"/>
+    <Button
+        android:id="@+id/b90"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="ROTATE ANGLE 90"
+        android:layout_margin="20dp"
+        android:layout_marginTop="250dp"/>
+    <Button
+        android:id="@+id/b180"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="ROTATE ANGLE 180"
+        android:layout_margin="20dp"
+        android:layout_marginTop="300dp"/>
+    <Button
+        android:id="@+id/b270"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="ROTATE ANGLE 270"
+        android:layout_margin="20dp"
+        android:layout_marginTop="350dp"/>
+
+</LinearLayout>
